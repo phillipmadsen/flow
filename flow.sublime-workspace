@@ -8,10 +8,27 @@
 	"buffers":
 	[
 		{
-			"file": ".gitignore",
+			"file": "/G/[affordable]/[code]/schema and pivot stuff.php",
 			"settings":
 			{
-				"buffer_size": 107,
+				"buffer_size": 3429,
+				"line_ending": "Windows",
+				"name": "->withPivot('');"
+			}
+		},
+		{
+			"file": "/G/A_LOCAL/aaa/frontend.canvas/database/migrations/2016_06_23_133244_create_datalayer_product_option_pivot_table.php",
+			"settings":
+			{
+				"buffer_size": 947,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/G/A_LOCAL/aaa/frontend.canvas/database/migrations/2016_06_23_133430_create_product_option_tracking_pivot_table.php",
+			"settings":
+			{
+				"buffer_size": 939,
 				"line_ending": "Unix"
 			}
 		}
@@ -48,12 +65,34 @@
 	},
 	"expanded_folders":
 	[
-		"/G/A_LOCAL/bbb/flow"
+		"/G/A_LOCAL/bbb/flow",
+		"/G/A_LOCAL/bbb/flow/app",
+		"/G/A_LOCAL/bbb/flow/app/Http",
+		"/G/A_LOCAL/bbb/flow/database",
+		"/G/A_LOCAL/bbb/flow/database/migrations"
 	],
 	"file_history":
 	[
 		"/G/A_LOCAL/bbb/flow/.env",
 		"/G/A_LOCAL/bbb/flow/.env.example",
+		"/G/A_LOCAL/bbb/flow/database/migrations/2016_06_23_194319_create_product_features_table.php",
+		"/G/A_LOCAL/bbb/flow/database/migrations/2016_06_23_200104_create_brands_table.php",
+		"/G/A_LOCAL/bbb/flow/database/migrations/2016_06_23_200104_create_itentifiers_table.php",
+		"/G/A_LOCAL/bbb/flow/database/migrations/2016_06_23_200104_create_details_table.php",
+		"/G/Desktop/TEMPLATES/temprar/Rar$DIa0.075/2016_06_23_202045_create_itentifiers_table.php",
+		"/G/A_LOCAL/bbb/flow/database/migrations/2016_06_23_194319_create_itentifiers_table.php",
+		"/G/A_LOCAL/bbb/flow/database/migrations/2016_06_23_194319_create_manufacturers_table.php",
+		"/G/A_LOCAL/bbb/flow/database/migrations/2016_06_23_194010_create_datalayer_table.php",
+		"/G/Desktop/TEMPLATES/temprar/Rar$DIa0.701/2016_06_23_182203_create_brands_table.php",
+		"/G/A_LOCAL/aaa/frontend.canvas/resources/model_schemas/Product_2.json",
+		"/G/A_LOCAL/aaa/frontend.canvas/database/migrations/2016_06_09_153451_create_products_table.php",
+		"/G/A_LOCAL/bbb/flow/app/Http/routes.php",
+		"/G/[My]/dropzone-laravel-image-upload/app/Http/routes.php",
+		"/G/A_LOCAL/bbb/lte/app/Http/routes.php",
+		"/G/Desktop/TEMPLATES/temprar/Rar$DIa0.894/ProductOption.php",
+		"/G/Desktop/TEMPLATES/temprar/Rar$DIa0.132/Product.php",
+		"/G/Desktop/Laravel-Eloquent-Relationship-Example-master/app/config/workbench.php",
+		"/G/A_LOCAL/bbb/flow/.gitignore",
 		"/G/Desktop/Laravel-Eloquent-Relationship-Example-master/app/models/Owner.php",
 		"/G/Desktop/Laravel-Eloquent-Relationship-Example-master/app/models/Customer.php",
 		"/G/Desktop/Laravel-Eloquent-Relationship-Example-master/app/models/Shop.php",
@@ -79,6 +118,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"text",
+			"info')->default",
+			"text",
 			"homestead",
 			"dog"
 		],
@@ -103,19 +145,82 @@
 			[
 				{
 					"buffer": 0,
-					"file": ".gitignore",
+					"file": "/G/[affordable]/[code]/schema and pivot stuff.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 107,
+						"buffer_size": 3429,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								57,
-								57
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"auto_name": "->withPivot('');",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"allowed_colors":
+								[
+									"rgb",
+									"rgba",
+									"webcolors",
+									"hsla",
+									"hex_compressed",
+									"hsl",
+									"hex"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".php",
+								"current_syntax": "PHP/PHP",
+								"enabled": true,
+								"last_updated": 1466699654.76,
+								"scan_completion_scopes":
+								[
+								],
+								"scan_scopes":
+								[
+									"meta.property-value.css -comment -string",
+									"meta.value.css -comment -string",
+									"meta.tag.inline.any.html string.quoted",
+									"meta.tag.any.html meta.attribute-with-value.style.html"
+								],
+								"use_hex_argb": false
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/G/A_LOCAL/aaa/frontend.canvas/database/migrations/2016_06_23_133244_create_datalayer_product_option_pivot_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -125,19 +230,106 @@
 							],
 							"color_helper.scan":
 							{
-								"current_ext": "",
-								"current_syntax": "Seti_UI/icons/Langs/Git",
-								"enabled": false,
-								"last_updated": 1466697550.25
+								"allowed_colors":
+								[
+									"rgb",
+									"rgba",
+									"webcolors",
+									"hsla",
+									"hex_compressed",
+									"hsl",
+									"hex"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".php",
+								"current_syntax": "PHP/PHP",
+								"enabled": true,
+								"last_updated": 1466699654.76,
+								"scan_completion_scopes":
+								[
+								],
+								"scan_scopes":
+								[
+									"meta.property-value.css -comment -string",
+									"meta.value.css -comment -string",
+									"meta.tag.inline.any.html string.quoted",
+									"meta.tag.any.html meta.attribute-with-value.style.html"
+								],
+								"use_hex_argb": false
 							},
 							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Seti_UI/icons/Langs/Git.tmLanguage"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/G/A_LOCAL/aaa/frontend.canvas/database/migrations/2016_06_23_133430_create_product_option_tracking_pivot_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"allowed_colors":
+								[
+									"rgb",
+									"rgba",
+									"webcolors",
+									"hsla",
+									"hex_compressed",
+									"hsl",
+									"hex"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".php",
+								"current_syntax": "PHP/PHP",
+								"enabled": true,
+								"last_updated": 1466699654.76,
+								"scan_completion_scopes":
+								[
+								],
+								"scan_scopes":
+								[
+									"meta.property-value.css -comment -string",
+									"meta.value.css -comment -string",
+									"meta.tag.inline.any.html string.quoted",
+									"meta.tag.any.html meta.attribute-with-value.style.html"
+								],
+								"use_hex_argb": false
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -220,7 +412,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 354.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
