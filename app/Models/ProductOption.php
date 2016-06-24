@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class ProductOption extends Model {
 
-	protected $table = 'product_option';
+	protected $table = 'product_options';
 	public $timestamps = true;
 	protected $guarded = array('id');
 
@@ -86,5 +86,3 @@ class ProductOption extends Model {
 	}
 
 }
-
-// php artisan make:form Forms/ProductForm --fields="name:text, lyrics:textarea, publish:checkbox"

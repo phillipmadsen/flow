@@ -9,7 +9,7 @@ class CreatePricesTable extends Migration {
 	{
 		Schema::create('prices', function(Blueprint $table) {
 			$table->increments('id');
-			$table->integer('po_id')->unsigned()->index();
+			$table->integer('product_option_id')->unsigned()->index();
 			$table->boolean('onsale')->index()->default(0);
 			$table->boolean('is_promo')->index()->default(0);
 			$table->decimal('dealer_price', 8,2)->nullable()->index()->default('00.00');

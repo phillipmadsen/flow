@@ -13,7 +13,7 @@ class Brand extends Model {
 
 	public function product()
 	{
-		return $this->belongsTo('ProductOption');
+		return $this->belongsTo(ProductOption::class);
 	}
 
 }

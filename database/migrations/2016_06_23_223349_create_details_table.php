@@ -9,7 +9,7 @@ class CreateDetailsTable extends Migration {
 	{
 		Schema::create('details', function(Blueprint $table) {
 			$table->increments('id');
-			$table->integer('poid')->unsigned()->index();
+			$table->integer('product_option_id')->unsigned()->index();
 			$table->string('name')->unique();
 			$table->string('short', 160)->nullable()->default('short description goes here');
 			$table->text('description')->nullable();

@@ -11,7 +11,6 @@ class ProductTableSeeder extends Seeder {
 
 		// testpruducts
 		Product::create(array(
-				'poid' => 1
 			));
 	}
 }

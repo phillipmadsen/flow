@@ -9,7 +9,7 @@ class CreateQuantitiesTable extends Migration {
 	{
 		Schema::create('quantities', function(Blueprint $table) {
 			$table->increments('id');
-			$table->integer('poid')->unsigned();
+			$table->integer('product_option_id')->unsigned();
 			$table->bigInteger('quantity_on_hand')->index()->default('0');
 			$table->bigInteger('quantity_available')->index()->default('0');
 			$table->timestamps();

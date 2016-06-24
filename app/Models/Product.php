@@ -16,7 +16,7 @@ class Product extends Model {
 
 	public function productOption()
 	{
-		return $this->hasMany('ProductOption', 'poid');
+		return $this->hasManyThrough('ProductOption');
 	}
 
 	public function schema()

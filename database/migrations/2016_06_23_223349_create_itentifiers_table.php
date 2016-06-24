@@ -9,9 +9,9 @@ class CreateItentifiersTable extends Migration {
 	{
 		Schema::create('itentifiers', function(Blueprint $table) {
 			$table->increments('id');
-			$table->integer('po_id')->unsigned()->index();
+			$table->integer('product_option_id')->unsigned()->index();
 			$table->string('model')->unique()->nullable();
-			$table->text('model_info')->nullable('');
+			$table->text('model_info')->nullable();
 			$table->string('sku')->unique()->nullable();
 			$table->text('sku_info')->nullable();
 			$table->string('asin')->unique()->nullable();

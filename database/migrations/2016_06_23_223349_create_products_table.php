@@ -9,7 +9,6 @@ class CreateProductsTable extends Migration {
 	{
 		Schema::create('products', function(Blueprint $table) {
 			$table->increments('id');
-			$table->integer('poid')->unsigned()->index();
 			$table->softDeletes();
 			$table->timestamps();
 		});

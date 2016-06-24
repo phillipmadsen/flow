@@ -9,7 +9,7 @@ class CreateVideosTable extends Migration {
 	{
 		Schema::create('videos', function(Blueprint $table) {
 			$table->increments('id');
-			$table->integer('poid')->unsigned()->index();
+			$table->integer('product_option_id')->unsigned()->index();
 			$table->string('title');
 			$table->string('url')->nullable()->index();
 			$table->text('description')->nullable();

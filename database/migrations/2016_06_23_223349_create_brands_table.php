@@ -9,8 +9,9 @@ class CreateBrandsTable extends Migration {
 	{
 		Schema::create('brands', function(Blueprint $table) {
 			$table->increments('id');
+			$table->integer('product_option_id')->unsigned()->index();
 			$table->string('brand')->index();
-			$table->string('info')->nullable()->default('The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.');
+			$table->text('info')->nullable();
 			$table->timestamps();
 		});
 	}

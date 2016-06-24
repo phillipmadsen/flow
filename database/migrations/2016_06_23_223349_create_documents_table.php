@@ -9,7 +9,7 @@ class CreateDocumentsTable extends Migration {
 	{
 		Schema::create('documents', function(Blueprint $table) {
 			$table->increments('id');
-			$table->integer('poid')->unsigned();
+			$table->integer('product_option_id')->unsigned();
 			$table->string('title')->index();
 			$table->string('pathto')->nullable();
 			$table->string('filename')->nullable();

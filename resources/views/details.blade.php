@@ -1,8 +1,8 @@
 {!! Form::open(array('route' => 'route.name', 'method' => 'POST')) !!}
 	<ul>
 		<li>
-			{!! Form::label('poid', 'Poid:') !!}
-			{!! Form::text('poid') !!}
+			{!! Form::label('product_option_id', 'Product_option_id:') !!}
+			{!! Form::text('product_option_id') !!}
 		</li>
 		<li>
 			{!! Form::label('name', 'Name:') !!}

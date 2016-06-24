@@ -17,7 +17,9 @@
         "orangehill/iseed": "^2.1",
         "rap2hpoutre/laravel-log-viewer": "^0.6.0",
         "kris/laravel-form-builder": "^1.7",
-        "evercode1/view-maker" : "^3.5"
+        "evercode1/view-maker" : "^3.5",
+        "graham-campbell/htmlmin": "^4.3",
+        "graham-campbell/github": "dev-master"
 
     },
     "require-dev": {

@@ -9,7 +9,7 @@ class CreateProductVariationsTable extends Migration {
 	{
 		Schema::create('product_variations', function(Blueprint $table) {
 			$table->increments('id');
-			$table->integer('product_id')->unsigned()->index();
+			$table->integer('product_option_id')->unsigned()->index();
 			$table->string('attribute_name');
 			$table->text('product_attribute_value');
 			$table->timestamps();

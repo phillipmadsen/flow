@@ -15,22 +15,5 @@ class Seo extends Model {
 	{
 		return $this->belongsTo('Details', 'details_id');
 	}
-  
-     public function seoble()
-    {
-        return $this->morphTo();
-    }
-
-    public function updateFromInput()
-    {
-      $this->title    = e(Input::get('title'));
-      $this->description  = e(Input::get('description'));
-      $this->keywords   = e(Input::get('keywords'));
-      $this->facebook_title   = e(Input::get('facebook_title'));
-      $this->google_plus_title   = e(Input::get('google_plus_title'));
-      $this->twitter_title   = e(Input::get('twitter_title'));
-      $this->save();
-      return true;
-    }
 
 }

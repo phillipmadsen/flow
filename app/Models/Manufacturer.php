@@ -11,4 +11,9 @@ class Manufacturer extends Model {
 	protected $fillable = array('name');
 	protected $visible = array('name');
 
+	public function location()
+	{
+		return $this->hasOne('Locations');
+	}
+
 }

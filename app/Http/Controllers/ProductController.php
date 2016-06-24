@@ -7,9 +7,12 @@ class ProductController extends Controller {
    *
    * @return Response
    */
+  
   public function index()
   {
-      
+    $products = Product::all();
+    
+    return view('products.index')->with('products', $products);
   }
 
   /**
@@ -20,6 +23,8 @@ class ProductController extends Controller {
   public function create()
   {
     
+    
+    return view('products.create');
   }
 
   /**
