@@ -15,7 +15,9 @@ bootstrap/cache/
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
 /vendor
-/public
+*.jpg
+*.png
+*.psd
 /bootstrap
 composer.lock
 /tests
