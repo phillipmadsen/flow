@@ -160,6 +160,8 @@ return [
         Kris\LaravelFormBuilder\FormBuilderServiceProvider::class,
         Evercode1\ViewMaker\ViewMakerServiceProvider::class,
         GrahamCampbell\HTMLMin\HTMLMinServiceProvider::class,
+        GrahamCampbell\GitHub\GitHubServiceProvider::class,
+        Joanvt\MediaManager\MediaManagerServiceProvider::class,
 
 
 
@@ -218,6 +220,7 @@ return [
         'Html'      => Collective\Html\HtmlFacade::class,
         'FormBuilder' => Kris\LaravelFormBuilder\Facades\FormBuilder::class,
         'HTMLMin' => GrahamCampbell\HTMLMin\Facades\HTMLMin::class,
+        'GitHub' => GrahamCampbell\GitHub\Facades\GitHub::class,
     ],
 
 ];

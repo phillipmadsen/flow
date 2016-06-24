@@ -69,3 +69,7 @@ Route::resource('schematype', 'SchemaTypeController');
 Route::resource('seo', 'SeoController');
 Route::resource('tracking', 'TrackingController');
 Route::resource('datalayer', 'DataLayerController');
+
+
+Route::post('ajax/upload_files', 'AjaxController@index');
+Route::post('ajax/upload_files/delete', 'AjaxController@delete_image');
